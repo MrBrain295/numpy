@@ -10,3 +10,4 @@ cffi; python_version < '3.10'
 # For testing types. Notes on the restrictions:
 # - Mypy relies on C API features not present in PyPy
 mypy==0.931; platform_python_implementation != "PyPy"
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
